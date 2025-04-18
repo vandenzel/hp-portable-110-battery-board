@@ -1,0 +1,108 @@
+(footprint "M3x6 Mounting stud pressfit"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3mm")
+	(tags "mounting hole 3mm")
+	(property "Reference" "J3"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "ca1d8fb7-8d89-45f7-aa6b-caa5715e9c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x01"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "6743ec6f-2514-4678-a38f-84d811b3ca88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e651b4bf-ffaa-4adf-986f-44afb7de76f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d145d2f3-87d7-493e-ba13-501677081cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "beef0631-8f75-4b93-8943-f93d94981799")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f8f3b47f-b25b-46da-aa69-459284aa04e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0d94f526-3716-4fcb-a733-800e24280e3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c57958a-2454-4f4e-acba-1ed97ad23d45")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/project.pretty/KFH-M3-6ET-PennEngineering-3D-04-18-2025.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)
