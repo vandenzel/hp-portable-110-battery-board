@@ -1881,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "project:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
 			(at 119.38 87.63 0)
 			(effects
 				(font

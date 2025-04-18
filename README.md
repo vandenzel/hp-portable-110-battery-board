@@ -12,7 +12,7 @@ On PCB
 | Part | Description             | Notes                                                                           |
 | ---- | ----------------------- | ------------------------------------------------------------------------------- |
 | D1   | 1N4001                  | this should be a D_SMA package                                                  |
-| F1   | 0.5A                    | I found a 1206 (3216 in metric) package                                                                                |
+| F1   | 0.5A                    | [Mouser](https://mou.sr/42zEMhM)                                                                            |
 | J1   | header 1x2 2.54mm pitch | pinheader, or JST-XH, or wires soldered directly to PCB                         |
 | J2   | header 1x3 2.54mm pitch | plain pinheader or something compatible with the locking connector              |
 | J3   | screw terminal          | Press-fit M3 stud 6mm long ([PEM KFH-M3-6ET at Mouser](https://mou.sr/3RKMalD)) |
